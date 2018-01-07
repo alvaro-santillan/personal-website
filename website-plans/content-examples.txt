@@ -1,0 +1,48 @@
+Mission statment: I'm well versed in many skills around technology & product development. I like to build things – usually with technology, and a side of grit. 
+I've worn many hats in my career between executive positions, back-end dev, front-end dev, and product design. 
+I love knowledge, and I strongly believe technology can, and should enrich every single life this universe has to offer.
+I've always been drawn to the overlap between design and development. My skills are broad: from ux to design, front end to back end development. 
+I enjoy each aspect, and love building sites & mobile apps from start to finish, for clients all over the world.
+
+What I do
+Front-end
+...
+Back-end
+...
+CMS
+...
+Apps
+....
+Cloud
+...
+
+Communication
+	I realize the importance of good communication. I use tools like Slack to make sure we’re always on the same page.
+Organisation
+	I believe it’s important to stay organised while working remotely. I use the likes of Trello & Basecamp to help keep projects on-track and under control.
+Time Keeping
+	I value my clients’ time and always aim to work efficiently. I account for and track everything I do using services such as Toggl.
+Project Management
+	I think it’s important to identify the discrete stages of a project and work to a schedule around those.
+Collaboration
+	I play well with others. I'm happy to integrate into your existing team to help get your project implemented.
+Development
+	I have a first-class degree in computer science and recognize the importance of applying proper software development techniques to the web.
+Design
+	While I'm not a graphic designer, I have an eye for good design. I'm comfortable using Photoshop, Illustrator and Sketch and can take designs from 
+	mock-up to implementation.
+Documentation
+	Often overlooked, I think it's incredibly important to leave clients with a clear picture of what's been done for the next round of development.
+
+	noob: Beginners know how to learn new skills. Let’s say you want to learn programming. Who do you think is better to ask for advice: a friend who’s been doing it 
+professionally for thirty years, or your friend who took a single college course on it about two years ago? Well, the 30-year seasoned professional hasn’t had to 
+learn how to program in decades, and they learned back on a now-ancient Commodore 64. Even though your other friend is quite inexperienced, they’ll have a much 
+better idea of where to get started. Newbies (potentially) know a lot about new tools and technology. When you’re teaching yourself a new skill, you’re inherently 
+forced to put a lot of research into that topic. Odds are that you’ll stumble upon a lot of new and upcoming tech during that research. It’s also easier to 
+objectively compare different tools and tech when you don’t have several years invested into a particular tech stack. Beginners don’t yet know what isn’t possible. 
+It’s easier to think outside of the box when there is no box. When you have a lot of experience in a field, it’s easy to dismiss a lot of ideas that seem impractical 
+without giving them the attention they deserve. Obviously, this same trait can also backfire horridly and bite you in the rear, but it’s not without its advantages.
+
+If you've come this far, and want to get in touch, there's always LinkedIn, or you could email me: ---.
+
+about this site: my personal website primarily written in custom PHP.
