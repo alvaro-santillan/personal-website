@@ -1,4 +1,4 @@
-// HOME SECTION //
+// HOME ARROW //
 
 // arrow fades away as you scroll
 $(window).scroll(function() {

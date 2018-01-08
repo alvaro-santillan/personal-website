@@ -3,6 +3,9 @@ html, body {
     font-family: "Raleway", cursive;
 }
 
+/*================================================
+        HOME
+=================================================*/  
 #home {
     height: 100%;
     background-image: url(../img/bg.jpg);
@@ -14,31 +17,26 @@ html, body {
 
 #home-content-box {
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 #home-heading h1 {
-    color: #369C31;
-    font-weight: 400;
+    color: #AA6958;
+    font-weight: 200;
     font-size: 120px;
     
 }
 
 #home-heading h3 {
-    color: #6d6664;
+    color: #707780;
     border-color: #369C31;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 40px;
 }
 
-.bg-parallax {
-    background-repeat: no-repeat;
-    background-size: cover;
-        /* so that image covers as much as posible */
-    background-position: center;
-    background-attachment: fixed;
-}
-
+/*================================================
+        HOME ARROW
+=================================================*/ 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         -moz-transform: translateY(0);
@@ -61,18 +59,19 @@ html, body {
 }
 
 .arrow {
-    color: #369C31;
+    padding-top: 50px;
+    color: #AA6958;
     bottom: 0;
     height: 85px;
     text-align: center;
 }
 
 .arrow:hover {
-    color: #74B16C;
+    color: #C68B69;
 }
 
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
+    animation: bounce 4s infinite;
 }
