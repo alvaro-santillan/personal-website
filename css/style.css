@@ -1,9 +1,42 @@
 html, body {
     height: 100%;
+    font-family: "Raleway", cursive;
 }
 
 #home {
     height: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+    text-align: center;
+    padding-top: 300px;
+}
+
+#home-heading h1 {
+    color: #369C31;
+    font-weight: 400;
+    font-size: 120px;
+    
+}
+
+#home-heading h3 {
+    color: #6d6664;
+    border-color: #369C31;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+        /* so that image covers as much as posible */
+    background-position: center;
+    background-attachment: fixed;
 }
 
 @keyframes bounce {
@@ -28,17 +61,14 @@ html, body {
 }
 
 .arrow {
-    color: rebeccapurple;
-    position: absolute;
+    color: #369C31;
     bottom: 0;
-    left: 50%;
-    margin-left: -20px;
-    width: 50px;
-    height: 60px;
+    height: 85px;
+    text-align: center;
 }
 
 .arrow:hover {
-    color: lightskyblue;
+    color: #74B16C;
 }
 
 .bounce {
