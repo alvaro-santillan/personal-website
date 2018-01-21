@@ -32,4 +32,4 @@ about my carrer
    
 ---contact me---
 resume links, look at the code, how this website was made
-contact me, links (linkend, github, stack overflow, email, like, make a segestion)
+contact me, links (linkend, github, stack overflow, slack, email, like, make a segestion)
