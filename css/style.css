@@ -1,42 +1,71 @@
 html, body {
     height: 100%;
     font-family: "Raleway", cursive;
+    scroll-behavior: smooth;
+}
+
+/*=================================================
+    NAVIGATION
+=================================================*/
+.nav-link.active {
+    color:burlywood !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color:burlywood !important;
+}
+
+.btn-back-to-top {
+    border-color: #4C4C4C ;
+    color: #4C4C4C ;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    font-size: 25px;
+    padding: 3px 15px;
+    display: none;
+    margin: 0 10px;
+}
+
+.btn-back-to-top:hover {
+    background-color: #4C4C4C;
+    color: #fff;
 }
 
 /*================================================
-        HOME
-=================================================*/  
-#home {
-    height: 100%;
-    background-image: url(../img/bg.jpg);
+    HOME
+=================================================*/
+#particles-js{
+    background-image: url('/img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
 }
 
-#home-content-box {
+.home-body{
+    color: #f9f3f4;
+    position: absolute;
     text-align: center;
-    padding-top: 200px;
+    top: 200px;
+    width: 100%;
+    line-height: 0.4em;
 }
 
-#home-heading h1 {
-    color: #AA6958;
+#particles-js h1 {
+    color: #4C4C4C;
     font-weight: 200;
     font-size: 120px;
-    
 }
 
-#home-heading h3 {
+#particles-js h3 {
     color: #707780;
-    border-color: #369C31;
     font-weight: 200;
     font-size: 40px;
 }
 
-/*================================================
-        HOME ARROW
-=================================================*/ 
+/* ----- Arrow ----- */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         -moz-transform: translateY(0);
@@ -59,15 +88,11 @@ html, body {
 }
 
 .arrow {
-    padding-top: 50px;
-    color: #AA6958;
+    margin-top: 50px;
+    color: #4C4C4C;
     bottom: 0;
     height: 85px;
     text-align: center;
-}
-
-.arrow:hover {
-    color: #C68B69;
 }
 
 .bounce {
@@ -76,22 +101,163 @@ html, body {
     animation: bounce 4s infinite;
 }
 
-/*================================================
-        MISSION
-=================================================*/  
-#mission {
-    background-color: aqua;
-    padding: 100px 75px;
+/*=================================================
+    PROFILE
+=================================================*/
+#profile-body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 350px;
 }
 
+#profile-title h3 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+}
 
+/*=================================================
+    PROJECT
+=================================================*/
+#project {
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+.spotlight-project {
+    background-color: antiquewhite;
+}
 
+#project-title h3 {
+    padding-left: 5%;
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+}
 
+#project p {
+    margin-bottom: 5px;
+}
 
+.resources-used {
+    font-style: italic;
+}
 
+.last-project {
+    padding-bottom: 0px !important;
+}
 
+/* ----- Stats ----- */
+.stats-item i {
+    padding-top: 15px;
+    color: #4C4C4C
+}
+.stats-item h2 {
+    color: #4C4C4C;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.stats-item p {
+    color: #4C4C4C;
+    text-transform: uppercase;
+    font-weight: 300;
+}
 
+/*=================================================
+    SKILL
+=================================================*/
+#skill-body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+#skill-title h3 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+}
 
+/*=================================================
+    EDUCATION
+=================================================*/
+#education-body {
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+#education-title h3 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+}
+
+/*=================================================
+    RECOGNITIONS & AFFILIATIONS & PAST TIMES
+=================================================*/
+#reco-affi-past-body {
+    padding-bottom: 70px;
+}
+
+#reco-affi-past-title h3 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+}
+
+/*=================================================
+    CONTACT / FOOTER
+=================================================*/
+
+#contact {
+	width: 100%;
+    font-size: 1.1em;
+	text-align: center;
+	bottom:0;
+}
+
+#contact p {
+    font-size: 0.8em;
+}
+
+#contact .fab {
+    margin: 5px 15px;
+    bottom: 0;
+    color: #4C4C4C;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+
+#contact .fas {
+    margin: 5px 15px;
+    bottom: 0;
+    color: #4C4C4C;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+
+#contact .fa-github-square:hover {
+    color: #6e5494;
+    bottom: 5px;
+}
+
+#contact .fa-google-drive:hover {
+    color: #3D6EC9;
+    bottom: 5px;
+}
+
+#contact .fa-linkedin:hover {
+    color: #0077B5;
+    bottom: 5px;
+}

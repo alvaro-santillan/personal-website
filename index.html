@@ -1,74 +1,371 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    
-    <head>
+
+<head>
     <!--================================================
         META DATA / BACKEND
-    =================================================-->  
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" contet="Alvaro Santillan">
-        <meta name="keywords" content="---">
+    =================================================-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  handle keywords and description -->
+    <meta name="description" contet="Alvaro Santillan">
+    <meta name="keywords" content="Alvaro Santillan">
 
-        <title>Alvaro Santillan</title>
-        <link href="#" rel="shortcut icon">
-            <!-- missing icon -->
+    <title>Álvaro F Santillan</title>
+    <!-- missing icon -->
+    <link href="#" rel="shortcut icon">
 
-       <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-            <!-- font-awesome EXTERNAL RESOURCE--> 
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-            <!-- after style.css becouse style.css will be modified -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- responsive.css after style.css becouse style.css will be modified -->
+</head>
 
-    </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
+    <!--================================================
+        NAV BAR
+    =================================================-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Álvaro F Santillan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Professional Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skill Set</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reco-affi-past">Recognitions & Affiliations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reco-affi-past">Past Times</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <body>
     <!--================================================
         HOME
     =================================================-->
-       <section id="home">
-            <div id="home-cover" class="bg-parallax">
-                <div id="home-content-box">
-                    <div id="home-content-box-inner">
-                        <div id="home-heading">
-                            <h1>Hello</h1>
-                            <h3>&lt;/Lets Create Something Great&gt;</h3>
-                        </div>   
+    <section id="home">
+        <div id="particles-js">
+            <div class="home-body">
+                <h1>Hello</h1>
+                <h3>&lt;/Lets Create Something Great&gt;</h3>
+                <!-- External code https://codepen.io/bewley/pen/revRQv -->
+                <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================================================
+        PROFILE
+    =================================================-->
+    <section id="profile">
+        <div id="profile-body">
+            <div id="profile-title">
+                <h3>Professional Profile</h3>
+                <br>
+            </div>
+            <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
+                application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
+                Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
+        </div>
+    </section>
+
+    <!--================================================
+        PROJECTS
+    =================================================-->
+    <section id="projects">
+        <div id="projects-body">
+            <div id="project-title">
+                <h3>Projects</h3>
+                <br>
+            </div>
+
+            <div id="project" class="spotlight-project">
+                <div id="project-title">
+                    <h4>GUI Snake Game</h4>
+                </div>
+                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
+                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
+                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
+                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
+            </div>
+
+            <div id="project" class="spotlight-project">
+                <div id="project-title">
+                    <h4>GUI Snake Game</h4>
+                </div>
+                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
+                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
+                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
+                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
+            </div>
+
+            <div id="project" class="last-project spotlight-project">
+                <div id="project-title">
+                    <h4>GUI Snake Game</h4>
+                </div>
+                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
+                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
+                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
+                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
+            </div>
+
+            <div class="projects content-box">
+                <br>
+                <div class="container">
+                    <div class="row text-center">
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fab fa-android fa-4x"></i>
+                                <h2><span class="counter">5</span></h2>
+                                <p>Android Apps</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fas fa-database fa-4x"></i>
+                                <h2><span class="counter">2</span></h2>
+                                <p>Database`s</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fab fa-app-store-ios fa-4x"></i>
+                                <h2><span class="counter">20</span></h2>
+                                <p>iOS Apps</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fab fa-app-store-ios fa-4x"></i>
+                                <h2><span class="counter">5</span></h2>
+                                <p>Personal Swift iOS Apps</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fas fa-paint-brush fa-4x"></i>
+                                <h2><span class="counter">7</span></h2>
+                                <p>Website Frontends</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="stats-item">
+                                <i class="far fa-window-maximize fa-4x"></i>
+                                <h2><span class="counter">2</span></h2>
+                                <p>Windows GUI`s</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div id="project">
+                <div id="project-title">
+                    <h4>5 Personal Swift iOS App Projects</h4>
+                </div>
+                <p>BMI Calculator, Image Random (displays images), Muse Squares (music app), Slotz (slot machine simulator), Switch (view controller experiment
+                </p>
+                <p class="resources-used">Resources Used: Swift, XCode, XCode Playgrounds, & Balsamiq Mockup 3, & GitHub.</p>
+            </div>
+
+            <div id="project">
+                <div id="project-title">
+                    <h4>16 iOS & Android App Projects (Udemy & Mobile App Development 4120):</h4>
+                </div>
+                <p>Clima (API weather app), Destini (display
+                    "Future predictions"), Dicee & Magic 8 Ball (simulators, also written in C++ & Java), Love Match ("calculate" compatibility
+                    between people), Quizzler, Xylophone App, I Am Poor & I Am Rich & Lab 1 & Lab 6 & Lab 5 (image, text view controller
+                    switchers), Lab 3 (UI control experiment), Lab 4 & Midterm 1 (Calculators), Happy Images (Interactive Memes).
+                </p>
+                <p class="resources-used">Resources Used: Swift, Java, XML, XCode, XCode Playgrounds, Android Studios, Balsamiq Mockup 3, & GitHub Desktop</p>
+            </div>
+
+            <div id="project">
+                <div id="project-title">
+                    <h4>3 Front-End Web Development Projects</h4>
+                </div>
+                <p>alvarosantillan.com (personal landing page), csci3308-madladsresearch.herokuapp.com (academic research opportunity finder), github.com/AFSM1995/CloudBase (NBA Data Analysis)
+                </p>
+                <p class="resources-used">Resources Used: CSS 3, HTML 5, JavaScript, PHP, SSL Certificates, Bootstrap 4, Google Fonts, Font Awesome, Balsamiq
+                    Mockup 3, Brackets, VM Workstation, Git & GitHub Desktop.
+                </p>
+            </div>
+
+            <div id="project">
+                <div id="project-title">
+                    <h4>1 Python Project</h4>
+                </div>
+                <p>Pygame Based GUI Snake Game (Customizable snake length, game scale & speed, pause & quit)
+                </p>
+                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
+            </div>
+
+            <div id="project" class="last-project">
+                <div id="project-title">
+                    <h4>1 Data Model Project</h4>
+                </div>
+                <p>Key-Based, Fully Attributed Small Business Data Model (handles inventory, customer, supplier
+                    invoices, & sale updates).
+                </p>
+                <p class="resources-used">Resources Used: MySQL Workbench 8.0 CE, MySQL Server 8.0 & GitHub Desktop.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--================================================
+        SKILL SET
+    =================================================-->
+    <section id="skill">
+        <div id="skill-body">
+            <div id="skill-title">
+                <h3>Skill Set</h3>
+                <br>
+            </div>
+
+            <h4>Programming Languages & Libraries</h4>
+            <p>Swift, Python, Java, C/C++, HTML, XML, CSS, Jupyter Notebook, Pandas, NumPy, Matplotlib.</p>
+
+            <h4>Relevant Courses</h4>
+            <p>Mobile Application Development, Big Data Architecture, Algorithms, Database Systems, Intro to Data Science, Software Development Methods & Tools, Web, Computer Systems, Data Structures, Discrete Structures, Java Programming, Computer Science 1, Computers Ethics & Society, Linear Algebra, Design Foundations.</p>
+
+            <h4>Verbal Languages</h4>
+            <p>Fluent English, Fluent Spanish</p>
+
+        </div>
+    </section>
+
+    <!--================================================
+        EDUCATION
+    =================================================-->
+    <section id="education">
+        <div id="education-body">
+            <div id="education-title">
+                <h3>Education</h3>
+                <br>
+            </div>
+
+            <h4 style="text-align:left;">University of Colorado Boulder: GPA: <span class="counter">3.4</span><span style="float:right;">Fall 2018 – Present</span>
+            </h4>
+
+            <p style="text-align:left;">Candidate for Bachelor's Degree in Computer Science from the College of Engineering and Applied Sciences (BS)<span style="float:right;">GPA <span class="counter">3.7</span></span><br>Candidate for Minor in Technology, Arts, & Media from the College of Engineering and Applied Sciences (BS)<span style="float:right;">GPA <span class="counter">4.0</span></span></p>
+
+            <h4 style="text-align:left;">Front Range Community College, Westminster: GPA: <span class="counter">3.2</span><span style="float:right;">Spring 2015 – Spring 2018</span></h4>
+            <p>Acquired Associates of Science (AS)</p>
+
+            <h4 style="text-align:left;">Metropolitan State University of Denver: GPA: <span class="counter">3.1</span><span style="float:right;">Fall 2014 – Spring 2016</span></h4>
+            <p>Candidate for Bachelor's Degree in Computer Science from the Department of Mathematical and Computer Sciences. (BS)</p>
+
+            <h4 style="text-align:left;">Westminster High School: GPA: <span class="counter">3.3</span><span style="float:right;">Fall 2009 – Spring 2013</span></h4>
+            <p>Acquired Honors High School Deploma (HS)</p>
+
+        </div>
+    </section>
+
+    <!--================================================
+        RECOGNITIONS & AFFILIATIONS & PAST TIMES
+    =================================================-->
+    <section id="reco-affi-past">
+        <div class='container-fluid'>
+            <div class="row">
+
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div id="reco-affi-past-body">
+                        <div id="reco-affi-past-title">
+                            <h3>Recognitions & Affiliations</h3>
+                            <br>
+                        </div>
+                        <p>Dean’s List Fall 2018 (CU Boulder)<br>TRIO Frist Generation (FRCC)<br>Phi Theta Kappa (FRCC)<br>National Honor Society of Leadership and Success (FRCC)<br>National Honor Society (HS)</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div id="reco-affi-past-body">
+                        <div id="reco-affi-past-title">
+                            <h3>Current Past Times</h3>
+                            <br>
+                        </div>
+                        <p>Passionate Snowboarder (Trees & Powder)<br>Passionate Archer (Compound Non-Hunting)<br>Avid Vehicle Detailer & Mechanic (Personal Vehicles)<br>Avid Hiker (Green & Blues)<br>Aspiring Mountain Biker (Resort Full Suspension Downhill)<br>Aspiring Rock Climber (Indoor Top Rope & Lead)<br>Aspiring Offroad Vehicle Mechanic (Dirt-Bikes & Dune Buggies)<br></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--================================================
+        CONTACT
+    =================================================-->
+    <footer>
+        <section id="contact">
+
+            <div class="container">
+                <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
+                <a href="https://github.com/AFSM1995" target="#"><li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></li></a>
+
+                <a href="https://www.linkedin.com/in/alvaro-santillan-2b0764173/" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
+
+                <a href="https://drive.google.com/file/d/1oJEurhMurC-LhqLdDZoYkuvMs0rJdCyv/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>
+            </div>
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or 2.<br>Copyright © 2019-2020 Álvaro Santillan. All rights reserved.</p>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                        <!-- External code https://codepen.io/bewley/pen/revRQv -->
-                        <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
-            </div> 
-        </section>
-        
-    <!--================================================
-        MISSION
-    =================================================-->
-        <section id="mission">
-            <div id="collum">
-                <div id="row">
-                    <div id="row-inner">
-                        <div id="mission-heading">
-                            <h3>Misson</h3>
-                        </div>   
-                    </div>
-                </div>
-            </div> 
-        </section>
-        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
-        <script src="js/jquery/jquery.js"></script>
-        <script src="js/bootstrap/bootstrap.min.js"></script>
-            <!-- bootstrap after jquery, bootstrap requires jquery -->
-        <script src="js/custom.js"></script>
 
-    </body>
+            <a href="#home" id="back-to-top" class="btn btn-back-to-top hidden-sm hidden-xs" title="home" role="button">
+                <i class="fa fa-angle-up"></i>
+            </a>
+
+        </section>
+    </footer>
+
+    <script src="js/jquery/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+    <script src="https://kit.fontawesome.com/72f58b42eb.js" crossorigin="anonymous"></script>
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
 
 </html>
