@@ -2,7 +2,7 @@
 
 // arrow fades away as you scroll
 $(window).scroll(function() {
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+    $(".home-body").css("opacity", 1 - $(window).scrollTop() / 300); 
         // 250: pixel fade
     });
 

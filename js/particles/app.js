@@ -23,7 +23,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#4c4c4c"
+        "value": "#B1B1B1"
       },
       "shape": {
         "type": "circle",
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "img/flake.png",
           "width": 100,
           "height": 100
         }
@@ -68,7 +68,7 @@ particlesJS('particles-js',
         "width": 1
       },
       "move": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
         "direction": "bottom",
         "random": false,
