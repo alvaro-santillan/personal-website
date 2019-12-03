@@ -4,39 +4,54 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/*
+#0C0F0A black
+#052230 blue
+#DDD1C7 cream
+#B1B1B1 gray
+#FBFEFB white
+*/
 /*=================================================
     NAVIGATION
 =================================================*/
+.bg-light{
+    background-color: rgba(248, 249, 250, 0.95) !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #052230 !important;
+}
+
 .nav-link.active {
-    color:burlywood !important;
+    color: #DDD1C7 !important;
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-    color:burlywood !important;
+    color: #DDD1C7 !important;
 }
 
 .btn-back-to-top {
-    border-color: #4C4C4C ;
-    color: #4C4C4C ;
+    border-color: #052230 ;
+    color: #052230;
     position: fixed;
     bottom: 25px;
-    right: 20px;
-    font-size: 25px;
-    padding: 3px 15px;
+    right: 25px;
+/*    font-size: 25px;*/
+/*    padding: 3px 15px;*/
     display: none;
-    margin: 0 10px;
+/*    margin: 0 10px;*/
 }
 
 .btn-back-to-top:hover {
-    background-color: #4C4C4C;
-    color: #fff;
+    background-color: #052230;
+    color: #FBFEFB;
 }
 
 /*================================================
     HOME
 =================================================*/
 #particles-js{
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,7 +60,7 @@ html, body {
 }
 
 .home-body{
-    color: #f9f3f4;
+    color: #FBFEFB;
     position: absolute;
     text-align: center;
     top: 200px;
@@ -54,13 +69,13 @@ html, body {
 }
 
 #particles-js h1 {
-    color: #4C4C4C;
+    color: #052230;
     font-weight: 200;
     font-size: 120px;
 }
 
 #particles-js h3 {
-    color: #707780;
+    color: #052230;
     font-weight: 200;
     font-size: 40px;
 }
@@ -89,7 +104,7 @@ html, body {
 
 .arrow {
     margin-top: 50px;
-    color: #4C4C4C;
+    color: #052230;
     bottom: 0;
     height: 85px;
     text-align: center;
@@ -106,7 +121,7 @@ html, body {
 =================================================*/
 #profile-body {
     padding-top: 70px;
-    padding-bottom: 70px;
+/*    padding-bottom: 70px;*/
     padding-left: 5%;
     padding-right: 350px;
 }
@@ -115,7 +130,7 @@ html, body {
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 0px;
-    color: #4C4C4C;
+    color: #052230;
 }
 
 /*=================================================
@@ -127,16 +142,13 @@ html, body {
     padding-right: 5%;
 }
 
-.spotlight-project {
-    background-color: antiquewhite;
-}
-
 #project-title h3 {
+    padding-top: 70px;
     padding-left: 5%;
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 0px;
-    color: #4C4C4C;
+    color: #052230;
 }
 
 #project p {
@@ -154,8 +166,9 @@ html, body {
 /* ----- Stats ----- */
 .stats-item i {
     padding-top: 15px;
-    color: #4C4C4C
+    color: #052230
 }
+
 .stats-item h2 {
     color: #4C4C4C;
     font-size: 35px;
@@ -164,7 +177,7 @@ html, body {
     margin-bottom: 1px;
 }
 .stats-item p {
-    color: #4C4C4C;
+    color: #0C0F0A;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -174,7 +187,7 @@ html, body {
 =================================================*/
 #skill-body {
     padding-top: 70px;
-    padding-bottom: 70px;
+/*    padding-bottom: 70px;*/
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -183,37 +196,39 @@ html, body {
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 0px;
-    color: #4C4C4C;
+    color: #052230;
 }
 
 /*=================================================
     EDUCATION
 =================================================*/
 #education-body {
-    padding-bottom: 70px;
+/*    padding-bottom: 70px;*/
     padding-left: 5%;
     padding-right: 5%;
 }
 
 #education-title h3 {
+    padding-top: 70px;
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 0px;
-    color: #4C4C4C;
+    color: #052230;
 }
 
 /*=================================================
     RECOGNITIONS & AFFILIATIONS & PAST TIMES
 =================================================*/
 #reco-affi-past-body {
-    padding-bottom: 70px;
+/*    padding-bottom: 70px;*/
 }
 
 #reco-affi-past-title h3 {
+    padding-top: 70px;
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 0px;
-    color: #4C4C4C;
+    color: #052230;
 }
 
 /*=================================================
@@ -221,6 +236,7 @@ html, body {
 =================================================*/
 
 #contact {
+    padding-top: 70px;
 	width: 100%;
     font-size: 1.1em;
 	text-align: center;
@@ -234,15 +250,7 @@ html, body {
 #contact .fab {
     margin: 5px 15px;
     bottom: 0;
-    color: #4C4C4C;
-    position: relative;
-    transition: all 0.25s ease-in-out;
-}
-
-#contact .fas {
-    margin: 5px 15px;
-    bottom: 0;
-    color: #4C4C4C;
+    color: #052230;
     position: relative;
     transition: all 0.25s ease-in-out;
 }

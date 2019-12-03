@@ -25,11 +25,11 @@
     <!-- responsive.css after style.css becouse style.css will be modified -->
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="65">
+<body data-spy="scroll" data-target=".navbar">
     <!--================================================
         NAV BAR
     =================================================-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
         <a class="navbar-brand" href="#">Álvaro F Santillan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,10 @@
                 <h1>Hello</h1>
                 <h3>&lt;/Lets Create Something Great&gt;</h3>
                 <!-- External code https://codepen.io/bewley/pen/revRQv -->
-                <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+                <div class="arrow bounce">
+                    <svg class="bi bi-chevron-compact-down" width="80px;" height="80px;" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -103,35 +106,30 @@
                 <h3>Projects</h3>
                 <br>
             </div>
-
-            <div id="project" class="spotlight-project">
-                <div id="project-title">
-                    <h4>GUI Snake Game</h4>
+            <div class="spotlight-projects">
+                <div id="project" class="spotlight-project">
+                    <div id="project-title">
+                        <h4>GUI Snake Game</h4>
+                    </div>
+                    <p>Designed and Implemented a well commented, responsive, and adaptive GUI smake game. There are two versions of the game one for user enjoyment and a barebone version for simulations and probability testing. The game features easily manipulable settings for snake length, snake speed, game colors, game scale, and game size. The game was built with the help of Pygame, an external Python library used primarily for creating Python-based GUI`s and games.</p>
+                    <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
                 </div>
-                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
-                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
-                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
-                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
-            </div>
 
-            <div id="project" class="spotlight-project">
-                <div id="project-title">
-                    <h4>GUI Snake Game</h4>
+                <div id="project" class="spotlight-project">
+                    <div id="project-title">
+                        <h4>Weighted Grade Calculator Android App</h4>
+                    </div>
+                    <p>Designed/Wireframed and Implemented a Java-based Android App. The app is easy to use and simply designed. The app consists of rows. In each row 3 input boxes store the assignment name, score, and weight of that specific assignment. Each row has a slider to play with your grade in real-time and a lock to lock the assignment weigh and score. New rows can be added using the "fab" button (default button on all Andriod devices). The app displays in real-time the worst possible grade, best possible grade, and the current grade for the student.</p>
+                    <p class="resources-used">Resources Used: Java, Object Orianted Programing Concepts, XML, Andriod Studios, Balsamiq Mockup 3, & GitHub Desktop.</p>
                 </div>
-                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
-                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
-                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
-                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
-            </div>
 
-            <div id="project" class="last-project spotlight-project">
-                <div id="project-title">
-                    <h4>GUI Snake Game</h4>
+                <div id="project" class="last-project spotlight-project">
+                    <div id="project-title">
+                        <h4>String Alignment Based Plagorisim Detector</h4>
+                    </div>
+                    <p>Implemented a Python script to detect text manipulation using string alignment and dynamic programming principles. The program consists of three methods. The first method takes as parameters the strings and operation costs and returns a cost matrix using a dynamic programming algorithm (n^2 runtime complexity). The second method takes as a parameter the cost matrix and returns a vector that stores the optimal string edit operations to convert the first string into the final string (n runtime complexity). The third and final function takes as parameters an optimal operation vector, the target string, and the desired string length and returns the unmodified substrings and plagiarism percentage (n runtime complexity). The script has an accuracy matching and sometimes surpassing those found on online tools.</p>
+                    <p class="resources-used">Resources Used: Python, Dynamic Programming Principles, Matrix Data Structures, Visual Studios Code & GitHub Desktop.</p>
                 </div>
-                <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
-                    application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
-                    Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
-                <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
             </div>
 
             <div class="projects content-box">
@@ -194,7 +192,7 @@
 
             <div id="project">
                 <div id="project-title">
-                    <h4>5 Personal Swift iOS App Projects</h4>
+                    <h4><span class="counter">5</span> Personal Swift iOS App Projects</h4>
                 </div>
                 <p>BMI Calculator, Image Random (displays images), Muse Squares (music app), Slotz (slot machine simulator), Switch (view controller experiment
                 </p>
@@ -203,7 +201,7 @@
 
             <div id="project">
                 <div id="project-title">
-                    <h4>16 iOS & Android App Projects (Udemy & Mobile App Development 4120):</h4>
+                    <h4><span class="counter">16</span> iOS & Android App Projects (Udemy & Mobile App Development 4120):</h4>
                 </div>
                 <p>Clima (API weather app), Destini (display
                     "Future predictions"), Dicee & Magic 8 Ball (simulators, also written in C++ & Java), Love Match ("calculate" compatibility
@@ -215,7 +213,7 @@
 
             <div id="project">
                 <div id="project-title">
-                    <h4>3 Front-End Web Development Projects</h4>
+                    <h4><span class="counter">3</span> Front-End Web Development Projects</h4>
                 </div>
                 <p>alvarosantillan.com (personal landing page), csci3308-madladsresearch.herokuapp.com (academic research opportunity finder), github.com/AFSM1995/CloudBase (NBA Data Analysis)
                 </p>
@@ -226,7 +224,7 @@
 
             <div id="project">
                 <div id="project-title">
-                    <h4>1 Python Project</h4>
+                    <h4><span class="counter">2</span> Python Project</h4>
                 </div>
                 <p>Pygame Based GUI Snake Game (Customizable snake length, game scale & speed, pause & quit)
                 </p>
@@ -235,7 +233,7 @@
 
             <div id="project" class="last-project">
                 <div id="project-title">
-                    <h4>1 Data Model Project</h4>
+                    <h4><span class="counter">1</span> Data Model Project</h4>
                 </div>
                 <p>Key-Based, Fully Attributed Small Business Data Model (handles inventory, customer, supplier
                     invoices, & sale updates).
@@ -319,7 +317,7 @@
                             <h3>Current Past Times</h3>
                             <br>
                         </div>
-                        <p>Passionate Snowboarder (Trees & Powder)<br>Passionate Archer (Compound Non-Hunting)<br>Avid Vehicle Detailer & Mechanic (Personal Vehicles)<br>Avid Hiker (Green & Blues)<br>Aspiring Mountain Biker (Resort Full Suspension Downhill)<br>Aspiring Rock Climber (Indoor Top Rope & Lead)<br>Aspiring Offroad Vehicle Mechanic (Dirt-Bikes & Dune Buggies)<br></p>
+                        <p>Passionate Snowboarder (Trees & Powder)<br>Passionate Archer (Compound Non-Hunting)<br>Avid Vehicle Detailer & Mechanic (Personal Vehicles)<br>Avid Hiker (Green & Blues)<br>Aspiring Mountain Biker (Resort Downhill)<br>Aspiring Rock Climber (Indoor Top Rope & Lead)<br>Aspiring Offroad Vehicle Mechanic (Dirt-Bikes & Dune Buggies)<br></p>
                     </div>
                 </div>
 
@@ -337,21 +335,23 @@
                 <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
                 <a href="https://github.com/AFSM1995" target="#"><li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></li></a>
 
-                <a href="https://www.linkedin.com/in/alvaro-santillan-2b0764173/" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
+                <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
 
-                <a href="https://drive.google.com/file/d/1oJEurhMurC-LhqLdDZoYkuvMs0rJdCyv/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>
+                <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>
             </div>
 
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <p>Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or 2.<br>Copyright © 2019-2020 Álvaro Santillan. All rights reserved.</p>
+                        <p>Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or 2.<br>Copyright © 2019-2020 Álvaro F Santillan. All rights reserved.</p>
                     </div>
                 </div>
             </div>
 
             <a href="#home" id="back-to-top" class="btn btn-back-to-top hidden-sm hidden-xs" title="home" role="button">
-                <i class="fa fa-angle-up"></i>
+                <svg class="bi bi-chevron-up" width="20" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd" />
+                </svg>
             </a>
 
         </section>
@@ -362,8 +362,8 @@
     <script src="js/counter/jquery.waypoints.min.js"></script>
     <script src="js/counter/jquery.counterup.min.js"></script>
     <script src="https://kit.fontawesome.com/72f58b42eb.js" crossorigin="anonymous"></script>
-<!--    <script src="js/particles/particles.js"></script>-->
-<!--    <script src="js/particles/app.js"></script>-->
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
     <script src="js/custom.js"></script>
 
 </body>
