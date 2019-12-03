@@ -1,0 +1,33 @@
+---slide---
+intro image fast mission statement
+
+---Professional Profile---
+full mision statement
+
+---projects "never stop learning"---
+3 highlight
+rest no high light
+
+---skillset---
+langueges libriairies
+Cources
+platforms, ideas, apps, tools etc
+verbal languages
+
+---portfollio---
+ (github section)
+portfolio
+
+---education---
+education
+   cu section
+honarary achivemets (nhs etc..)
+what people are saying
+
+---contact me---
+resume links
+contact me, links (linkend, github, stack overflow, slack, email, like, make a segestion)
+
+Leave Feedback
+
+darkmode,lightmode
