@@ -23,17 +23,20 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <!-- responsive.css after style.css becouse style.css will be modified -->
+    <script src="js/jquery/jquery-3.4.1.min.js"></script>
+    <script src="js/typed/typed.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
     <!--================================================
         NAV BAR
     =================================================-->
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Álvaro F Santillan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -71,16 +74,18 @@
         <div id="particles-js">
             <div class="home-body">
                 <h1>Hello</h1>
-                <h3>&lt;/Lets Create Something Great&gt;</h3>
+                <h3 class="typed">| My name is Álvaro F Santillan.</h3>
                 <!-- External code https://codepen.io/bewley/pen/revRQv -->
                 <div class="arrow bounce">
-                    <svg class="bi bi-chevron-compact-down" width="80px;" height="80px;" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                   <a href="#profile"><li class="list-inline-item"><i><svg class="bi bi-chevron-compact-down" width="40px;" height="40px;" viewBox="0 0 20 20" fill="#052230" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd" />
-                    </svg>
+                    </svg></i></li></a>
+                   
+                    
                 </div>
             </div>
         </div>
-    </section>
+    </section>    
 
     <!--================================================
         PROFILE
@@ -92,14 +97,15 @@
                 <br>
             </div>
             <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile
-                application development field. Also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
-                Development. Possesses a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
+                application development field. I`m also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
+                Development. I possess a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
         </div>
     </section>
 
     <!--================================================
         PROJECTS
     =================================================-->
+    
     <section id="projects">
         <div id="projects-body">
             <div id="project-title">
@@ -348,7 +354,7 @@
                 </div>
             </div>
 
-            <a href="#home" id="back-to-top" class="btn btn-back-to-top hidden-sm hidden-xs" title="home" role="button">
+            <a href="#home" id="back-to-top" class="btn btn-back-to-top hidden-sm hidden-xs" role="button">
                 <svg class="bi bi-chevron-up" width="20" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd" />
                 </svg>
@@ -365,6 +371,7 @@
     <script src="js/particles/particles.js"></script>
     <script src="js/particles/app.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript" src="js/typed/typed.js"></script>
 
 </body>
 

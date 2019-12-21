@@ -68,7 +68,7 @@ particlesJS('particles-js',
         "width": 1
       },
       "move": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
         "direction": "bottom",
         "random": false,
@@ -121,10 +121,10 @@ particlesJS('particles-js',
     },
     "retina_detect": false,
     "config_demo": {
-      "hide_card": true,
+      "hide_card": false,
       "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
+      "background_image": "../../img/bg.jpg",
+      "background_position": "center",
       "background_repeat": "no-repeat",
       "background_size": "cover"
     }

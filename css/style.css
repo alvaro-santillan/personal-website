@@ -15,16 +15,21 @@ html, body {
     NAVIGATION
 =================================================*/
 .bg-light{
-    background-color: rgba(248, 249, 250, 0.95) !important;
+    background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
-.nav-link, .navbar-brand{
+.nav-link, .navbar-brand {
     color: #052230 !important;
 }
 
 .nav-link.active {
     color: #DDD1C7 !important;
 }
+
+.navbar-toggler {
+    outline: none !important;
+     border: none;
+  }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     color: #DDD1C7 !important;
@@ -34,12 +39,11 @@ html, body {
     border-color: #052230 ;
     color: #052230;
     position: fixed;
-    bottom: 25px;
-    right: 25px;
-/*    font-size: 25px;*/
-/*    padding: 3px 15px;*/
+    bottom: 20.75px;
+    right: 20.75px;
     display: none;
-/*    margin: 0 10px;*/
+    -webkit-transition: background-color 0.40s ease-out 0.10s;  
+    transition: background-color 0.40s ease-out .10s;
 }
 
 .btn-back-to-top:hover {
@@ -50,13 +54,46 @@ html, body {
 /*================================================
     HOME
 =================================================*/
-#particles-js{
+#particles-js:not(.bg-body) {
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+}
+    
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .home-body{
@@ -72,15 +109,24 @@ html, body {
     color: #052230;
     font-weight: 200;
     font-size: 120px;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
 }
 
 #particles-js h3 {
     color: #052230;
     font-weight: 200;
     font-size: 40px;
+    animation: fadein 5.5s;
+    -moz-animation: fadein 5.5s; /* Firefox */
+    -webkit-animation: fadein 5.5s; /* Safari and Chrome */
+    -o-animation: fadein 5.5s; /* Opera */
 }
 
 /* ----- Arrow ----- */
+/*
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         -moz-transform: translateY(0);
@@ -101,6 +147,7 @@ html, body {
         transform: translateY(-15px);
     }
 }
+*/
 
 .arrow {
     margin-top: 50px;
@@ -108,6 +155,15 @@ html, body {
     bottom: 0;
     height: 85px;
     text-align: center;
+}
+
+.arrow svg {
+    width: 100px;
+/*    height: 20px;*/
+    animation: fadein 7.5s;
+    -moz-animation: fadein 7.5s; /* Firefox */
+    -webkit-animation: fadein 7.5s; /* Safari and Chrome */
+    -o-animation: fadein 7.5s; /* Opera */
 }
 
 .bounce {
@@ -123,7 +179,7 @@ html, body {
     padding-top: 70px;
 /*    padding-bottom: 70px;*/
     padding-left: 5%;
-    padding-right: 350px;
+    padding-right: 5%;
 }
 
 #profile-title h3 {
@@ -245,6 +301,8 @@ html, body {
 
 #contact p {
     font-size: 0.8em;
+/*    delete margin*/
+    margin-bottom: 15.75px;
 }
 
 #contact .fab {
@@ -269,3 +327,37 @@ html, body {
     color: #0077B5;
     bottom: 5px;
 }
+
+
+
+/**/
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: ' |';
+	display: inline;
+    -webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
