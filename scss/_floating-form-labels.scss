@@ -1,0 +1,44 @@
+$ffl-label: ".ffl-label" !default;
+$ffl-floatedClass: ".ffl-floated" !default;
+$ffl-reserved-spacing-method: "padding" !default;
+
+$ffl-transition-duration: 200ms !default;
+$ffl-transition-easing: ease !default;
+
+@mixin floating-form-labels($position-top, $reserved-space, $spacing-method: $ffl-reserved-spacing-method) {
+    position: relative;
+    display: block;
+    #{$spacing-method}: {
+        top: $reserved-space;
+    }
+
+    #{$ffl-label} {
+        transition: {
+            property: all;
+            duration: $ffl-transition-duration;
+            timing-function: $ffl-transition-easing;
+            delay: 0s;
+        }
+        position: absolute;
+        white: {
+            space: nowrap;
+        }
+        max: {
+            width: 100%;
+        }
+        text: {
+            overflow: ellipsis;
+        }
+        overflow: hidden;
+        pointer: {
+            events: none;
+        }
+        top: $position-top;
+    }
+
+    &#{$ffl-floatedClass} {
+        #{$ffl-label} {
+            top: 0;
+        }
+    }
+}

@@ -22,6 +22,7 @@
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="scss/_floating-form-labels.scss" rel="stylesheet">
     <!-- responsive.css after style.css becouse style.css will be modified -->
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="js/typed/typed.js"></script>
@@ -70,6 +71,7 @@
     <!--================================================
         HOME
     =================================================-->
+
     <section id="home">
         <div id="particles-js">
             <div class="home-body">
@@ -85,13 +87,23 @@
                 </div>
             </div>
         </div>
+        
     </section>    
+    
 
     <!--================================================
         PROFILE
     =================================================-->
+        
+
+        
     <section id="profile">
+                <div class='' style="overflow: hidden; position: absolute; width: 100%; height: 200%;"><br><br><br><br><br><br><br><br><br><br><br><br>
+                   <div style="width: 150%; height: 150%; background-color: #F5F2EF; position: absolute; left: -35px; -webkit-transform: rotate(-3deg); z-index: -2"></div>
+                </div>
+
         <div id="profile-body">
+
             <div id="profile-title">
                 <h3>Professional Profile</h3>
                 <br>
@@ -100,6 +112,8 @@
                 application development field. I`m also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web
                 Development. I possess a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
         </div>
+        
+
     </section>
 
     <!--================================================
@@ -117,7 +131,7 @@
                     <div id="project-title">
                         <h4>GUI Snake Game</h4>
                     </div>
-                    <p>Designed and Implemented a well commented, responsive, and adaptive GUI smake game. There are two versions of the game one for user enjoyment and a barebone version for simulations and probability testing. The game features easily manipulable settings for snake length, snake speed, game colors, game scale, and game size. The game was built with the help of Pygame, an external Python library used primarily for creating Python-based GUI`s and games.</p>
+                    <p>Designed and Implemented a well commented, responsive, and adaptive GUI snake game. There are two versions of the game one for user enjoyment and a barebone version for simulations and probability testing. The game features easily manipulable settings for snake length, snake speed, game colors, game scale, and game size. The game was built with the help of Pygame, an external Python library used primarily for creating Python-based GUI`s and games.</p>
                     <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
                 </div>
 
@@ -140,8 +154,8 @@
 
             <div class="projects content-box">
                 <br>
-                <div class="container">
-                    <div class="row text-center">
+                <div class="project-icon-stats" style="text-align: center">
+                    <div class="row icons-project shadow">
 
                         <div class="col-md-2 col-sm-6">
                             <div class="stats-item">
@@ -171,7 +185,7 @@
                             <div class="stats-item">
                                 <i class="fab fa-app-store-ios fa-4x"></i>
                                 <h2><span class="counter">5</span></h2>
-                                <p>Personal Swift iOS Apps</p>
+                                <p>Personal iOS Apps</p>
                             </div>
                         </div>
 
@@ -195,7 +209,7 @@
                     <br>
                 </div>
             </div>
-
+    
             <div id="project">
                 <div id="project-title">
                     <h4><span class="counter">5</span> Personal Swift iOS App Projects</h4>
@@ -303,12 +317,14 @@
     <!--================================================
         RECOGNITIONS & AFFILIATIONS & PAST TIMES
     =================================================-->
+
+        
     <section id="reco-affi-past">
         <div class='container-fluid'>
             <div class="row">
 
-                <div class="col-md-6 d-flex justify-content-center">
-                    <div id="reco-affi-past-body">
+                <div class="col-md-6 d-flex justify-content-between" style="padding-left: 5% !important; border-right: 1px solid rgba(0,0,0,.1);">
+                    <div id="reco-affi-past-body" style="padding-left: 0px">
                         <div id="reco-affi-past-title">
                             <h3>Recognitions & Affiliations</h3>
                             <br>
@@ -316,9 +332,11 @@
                         <p>Dean’s List Fall 2018 (CU Boulder)<br>TRIO Frist Generation (FRCC)<br>Phi Theta Kappa (FRCC)<br>National Honor Society of Leadership and Success (FRCC)<br>National Honor Society (HS)</p>
                     </div>
                 </div>
+                
+                
 
-                <div class="col-md-6 d-flex justify-content-center">
-                    <div id="reco-affi-past-body">
+                <div class="col-md-6 d-flex justify-content-center" style="padding-right: 5% !important">
+                    <div id="reco-affi-past-body" style="padding-left: 0px; padding-right: 0px;">
                         <div id="reco-affi-past-title">
                             <h3>Current Past Times</h3>
                             <br>
@@ -330,23 +348,111 @@
             </div>
         </div>
     </section>
+    
+    <!--================================================
+        CONTACT FORM
+    =================================================-->
+    <div class='' style="overflow: hidden; position: absolute; width: 100%; height: 800px;"><br><br><br><br><br><br>
+        <div style="width: 150%; height: 150%; background-color: #ECE5E0; position: absolute; left: -35px; -webkit-transform: rotate(-3deg);"></div>
+    </div>
 
+    <section id="contact">
+        <div id="skill-title">
+            <h3>Contact Me</h3>
+            <br>
+        </div>
+
+
+        <div class='container-fluid'>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-between" style="padding: 0 !important; border-right: 1px solid rgba(0,0,0,.1);">
+                    <div class="card mb-3" style="max-width: 585px;">
+                        <div class="row shadow no-gutters">
+                            <div class="col-md-4 shadow">
+                                <img src="/img/contact.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <form novalidate>
+                                        <div class="inputBox form-group first-name-box">
+                                           <input type="text" required="" id="formGroupExampleInput1" class="inputBox form-control">
+                                            <label for="formGroupExampleInput2">First Name</label>
+                                        </div>
+                                        <div class="inputBox form-group">
+                                           <input type="text" required="" id="formGroupExampleInput2" class="inputBox form-control">
+                                            <label for="formGroupExampleInput2">Last Name</label>
+                                        </div>
+                                        <div class="inputBox form-group">
+                                           <input type="text" required="" id="formGroupExampleInput3" class="inputBox form-control email-box">
+                                            <label for="formGroupExampleInput3">Email Address</label>
+                                        </div>
+                                        <p class="text-center"><small class="text-muted">I respect your privacy. Your email will not be shared.</small></p>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Subject</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>Employment opportunity</option>
+                                                <option>Question</option>
+                                                <option>Website feedback</option>
+                                                <option>Skill-set feedback</option>
+                                                <option>Personality feedback</option>
+                                                <option>Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Message</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hello, my name is Fernando, Talent Recurtor at Santillan Mobile, LLC."></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-block btn-submit">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center" style="align-items: center; padding-right: 0px;">
+                    <div id="reco-affi-past-body" style="padding-right: 0px;">
+
+
+
+                        <h4 class="text-center card-title">Lets Create Something Great</h4>
+                        <p class="card-text">Take a look at them moccasins. What kind of skins is them? What's that writing mean...Neekay...what is that, some sort of Injun talk or something? (laughs.) (The Bartender begins to pour them all some whiskey, but the Gang Leader stops him.) Bartender...I'm looking for that no good cheatin' blacksmith. You seen him? Scared. No, sir, Mr. Tannen, I have not. Tannen. You're Mad Dog Tannen.</p>
+                        <hr>
+                        <p class="text-center card-text">Hey listen, I'm just in the wrong house! (Dad aims again - and misses again.) Go get him Dad! You got that right! (Dad aims again.)</p>
+                        <div class="text-center social-icons container">
+                            <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
+                            <a href="https://github.com/AFSM1995" target="#">
+                                <li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></li>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#">
+                                <li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li>
+                            </a>
+
+                            <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#">
+                                <li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
     <!--================================================
         CONTACT
     =================================================-->
-    <footer>
+    
+    <footer style="overflow: hidden; position: absolute; width:100%; background-color: #ECE5E0">
+        <div class="shadow" style="width: 150%; height: 200%; background-color: #DDD1C7; position: absolute; left: -35px; top: 70px; -webkit-transform: rotate(3deg);"></div>
+
         <section id="contact">
 
-            <div class="container">
-                <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
-                <a href="https://github.com/AFSM1995" target="#"><li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></li></a>
 
-                <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
 
-                <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>
-            </div>
-
-            <div class="container">
+            <div class="container" style="margin-top: 0px;">
+               
                 <div class="row text-center">
                     <div class="col-md-12">
                         <p>Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or 2.<br>Copyright © 2019-2020 Álvaro F Santillan. All rights reserved.</p>
@@ -361,6 +467,8 @@
             </a>
 
         </section>
+        
+        
     </footer>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
@@ -370,6 +478,7 @@
     <script src="https://kit.fontawesome.com/72f58b42eb.js" crossorigin="anonymous"></script>
     <script src="js/particles/particles.js"></script>
     <script src="js/particles/app.js"></script>
+    <script src="js/floating-labels/floatingFormLabels.min.js"></script>
     <script src="js/custom.js"></script>
     <script type="text/javascript" src="js/typed/typed.js"></script>
 

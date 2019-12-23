@@ -6,9 +6,38 @@ download all resorces
 responsive
 --loading java script delay
 clear undmy lecture
+stop bliking when text done
+first horizontal bar gose up too much
 
 idea custom color education school colors
 idea type our resorces used typed.js
 Format projects in style of clean post
 optimise reader ios
 dark mode switch
+Search engine opimization
+
+Email
+First Name
+Last Name
+Subject
+Message
+
+
+
+Message Recived!
+Thank you for contactcting me. Proffecional contact forms are replied to with in 24 hours. A confermation email will be sent to you shortly.
+
+Job offer
+Question
+Feedback on the website
+Other
+
+
+page confirmation 
+green box result
+button changes color to green and checkmark
+form shadow
+Contact disapears and meassage replaces
+
+insperation
+https://sleeknote.com/contact

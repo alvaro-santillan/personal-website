@@ -9,6 +9,8 @@ $(window).scroll(function () {
 /*==================================================================
                         STATS
 ==================================================================*/
+$('.ffl-wrapper').floatingFormLabels();
+
 $(function () {
     $('.counter').counterUp({
         delay: 5,
@@ -16,21 +18,6 @@ $(function () {
     });
 });
 
-// experiment
-$(function () {
-    // show/hide the navigation bar    
-    $(window).scroll(function () {
-        if ($(this).scrollTop() < 100) {
-            // hide the nav bar
-            $("nav").removeClass("vesco-top-nav");
-            $("#back-to-top").fadeOut();
-        } else {
-            // show the nav bar
-            $("nav").addClass("vesco-top-nav");
-            $("#back-to-top").fadeIn();
-        }
-    });
-});
 
 $(function () {
     var typed = new Typed('.typed', {
@@ -58,3 +45,47 @@ $(function () {
 //        smartBackspace: true
 //    });
 //});
+
+/*==================================================================
+                        NAM and button
+==================================================================*/
+// experiment
+$(function () {
+    // show/hide the navigation bar    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() < 100) {
+            // hide the nav bar
+            $("nav").removeClass("shadow-sm");
+            $("#back-to-top").fadeOut();
+        } else {
+            // show the nav bar
+            $("nav").addClass("shadow-sm");
+            $("#back-to-top").fadeIn();
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
