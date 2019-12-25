@@ -9,6 +9,10 @@ clear undmy lecture
 stop bliking when text done
 first horizontal bar gose up too much
 
+clean-up github so that website projects can be linked
+fix broken button transitions
+Create a paragrap for contact section
+
 idea custom color education school colors
 idea type our resorces used typed.js
 Format projects in style of clean post
@@ -16,21 +20,12 @@ optimise reader ios
 dark mode switch
 Search engine opimization
 
-Email
-First Name
-Last Name
-Subject
-Message
 
-
+make floating proffecional profile
 
 Message Recived!
 Thank you for contactcting me. Proffecional contact forms are replied to with in 24 hours. A confermation email will be sent to you shortly.
 
-Job offer
-Question
-Feedback on the website
-Other
 
 
 page confirmation 
