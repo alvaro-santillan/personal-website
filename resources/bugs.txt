@@ -7,7 +7,9 @@ responsive
 --loading java script delay
 clear undmy lecture
 stop bliking when text done
+change icon when on hover
 first horizontal bar gose up too much
+reorder projects based on complexity
 
 clean-up github so that website projects can be linked
 fix broken button transitions
@@ -19,6 +21,7 @@ Format projects in style of clean post
 optimise reader ios
 dark mode switch
 Search engine opimization
+check space above 23 ios projects
 
 
 make floating proffecional profile
@@ -34,5 +37,8 @@ button changes color to green and checkmark
 form shadow
 Contact disapears and meassage replaces
 
-insperation
 https://sleeknote.com/contact
+
+printer version
+
+
