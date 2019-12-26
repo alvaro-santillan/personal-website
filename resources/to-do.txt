@@ -1,0 +1,38 @@
+Before Release:
+implement contact form backend
+check spelling
+style links
+responsive
+download all resources
+clean code
+favicon
+check space above 23 ios projects
+clear udemy lecture
+
+After Release:
+fix/add first horizontal bar divider goes up too much
+loading javascript delay
+stop blinking when text done
+fix broken button transitions
+optimise reader ios
+Search engine optimization
+printer version
+
+Ideas:
+custom color education school colors
+type out resources used using typed.js
+change heart icon on hover
+Format projects in style of clean snip found on the internet
+dark mode switch
+make floating professional profile
+
+Other Ideas:
+Message Recived! 
+
+page confirmation 
+green box result
+button changes color to green and checkmark
+form shadow
+Contact disapears and meassage replaces
+
+https://sleeknote.com/contact
