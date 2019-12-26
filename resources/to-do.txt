@@ -6,17 +6,22 @@ responsive
 download all resources
 clean code
 favicon
+optimise coffie image
 check space above 23 ios projects
 clear udemy lecture
 
 After Release:
 fix/add first horizontal bar divider goes up too much
+fix button hold bug
+fix buggy drop down in current past time
+add shadow on new contact section div
 loading javascript delay
 stop blinking when text done
 fix broken button transitions
 optimise reader ios
 Search engine optimization
 printer version
+square google fonts used
 
 Ideas:
 custom color education school colors
