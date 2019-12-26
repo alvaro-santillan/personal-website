@@ -324,7 +324,7 @@ html, body {
     RECOGNITIONS & AFFILIATIONS & PAST TIMES
 =================================================*/
 #reco-affi-past-body {
-    padding-right: 5%;
+    /* padding-right: 5%; */
     padding-left: 5%;
 }
 
@@ -346,8 +346,12 @@ html, body {
     border-color: #B1B1B1;
 }
 
+#submit-btn{
+    margin-top: 19.5px !important;
+}
+
 .first-name-box {
-    margin-top: 10px !important;
+    margin-top: 10.5px !important;
 }
 
 .email-box{
