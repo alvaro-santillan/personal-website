@@ -1,6 +1,5 @@
 Before Release:
 implement contact form backend
-check spelling
 style links
 responsive
 favicon
@@ -29,6 +28,7 @@ change heart icon on hover
 Format projects in style of clean snip found on the internet
 dark mode switch
 make floating professional profile
+Practical js on education felid
 
 Other Ideas:
 Message Recived! 
