@@ -9,6 +9,7 @@ After Release:
 fix/add first horizontal bar divider goes up too much
 fix button hold bug
 fix buggy drop down in current past time
+fix manual nav-bar callapse
 handle missing meta info
 remove dependency from external resources
 add shadow on new contact section div

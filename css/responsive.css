@@ -13,38 +13,104 @@
 /*=================================================
             EXTRA LARGE MEDIA QUERIES
 =================================================*/
-@media (min-width: 1200px) {  
-
+@media (min-width: 1200px) {
 }
 
 /*=================================================
             LARGE MEDIA QUERIES
 =================================================*/
-@media (min-width: 992px) and (max-width: 1199px) {    
+/* Non collapsed nav bar min working space */
+@media (min-width: 1067px) and (max-width: 1199px) {
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 110px;
+  }
 
+  #particles-js h3 {
+    font-size: 36px;
+  }
+
+  .arrow svg {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* Icon stat section */
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 32px;
+  }
+
+  .stats-item p {
+    font-size: 14.9px;
+  }
+
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 55px;
+    font-size: 38.15px;
+  }
+
+  #contact-title h3 {
+    font-size: 38.15px;
+  }
+
+  #contact {
+    padding-top: 55px;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1066px) {
+  /* Icon stats numbers */
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 32px;
+  }
+
+  .stats-item p {
+    font-size: 13.5px;
+  }
 }
 
 /*=================================================
             MEDIUM MEDIA QUERIES
 =================================================*/
-@media (min-width: 768px) and (max-width: 991px) {   
-
+@media (min-width: 768px) and (max-width: 991px) {
 }
 
 /*=================================================
             SMALL MEDIA QUERIES
 =================================================*/
-@media (min-width: 576px) and (max-width: 767px) {   
-
+@media (min-width: 576px) and (max-width: 767px) {
 }
 
 /*=================================================
             EXTRA SMALL MEDIA QUERIES
 =================================================*/
 @media (min-width: 480px) and (max-width: 575px) {
-
 }
 
-@media (max-width: 479px) {   
-
+@media (max-width: 479px) {
 }
