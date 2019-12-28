@@ -97,7 +97,196 @@
 /*=================================================
             MEDIUM MEDIA QUERIES
 =================================================*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 850px) and (max-width: 991px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 45px;
+    font-size: 30.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 30.1px;
+  }
+
+  #contact {
+    padding-top: 45px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  p,
+  li {
+    font-size: 13.5px;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 92px;
+  }
+
+  #particles-js h3 {
+    font-size: 28px;
+  }
+
+  .arrow svg {
+    width: 83px;
+    height: 83px;
+  }
+
+  /* projects */
+  #project,
+  #project-category {
+    padding-bottom: 20px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 47px !important;
+  }
+
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 28px;
+  }
+
+  .stats-item p {
+    font-size: 11.95px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  #contact p {
+    font-size: 11.5px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 15px !important;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 700px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 45px;
+    font-size: 27.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 27.1px;
+  }
+
+  #contact {
+    padding-top: 45px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  p,
+  li {
+    font-size: 12px;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 87px;
+  }
+
+  #particles-js h3 {
+    font-size: 26px;
+  }
+
+  .arrow svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* projects */
+  #project,
+  #project-category {
+    padding-bottom: 5px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 45px !important;
+  }
+
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 26px;
+  }
+
+  .stats-item p {
+    font-size: 10.86px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  #contact p {
+    font-size: 11px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 13px !important;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 700px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 45px;
+  }
 }
 
 /*=================================================

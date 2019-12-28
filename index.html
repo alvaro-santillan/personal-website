@@ -410,25 +410,25 @@
 
                 <!-- Contact form -->
                 <div class="col-md-6 d-flex justify-content-start contact-form-block">
-                    <div class="card mb-3 form-block">
+                    <div class="card mb-1 form-block">
                         <div class="row shadow no-gutters">
-                            <div class="col-md-4 shadow">
+                            <div class="col-md-2 shadow">
                                 <img src="/img/contact.jpg" class="card-img-top" alt="Picture of coffee in a cup">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-10">
                                 <div class="card-body">
-                                    <form novalidate>
+                                    <form novalidate method="POST" action="./php/form.php">
                                         <!-- required used for floating label effect. -->
                                         <div class="inputBox form-group first-name-box">
-                                            <input type="text" required="" id="formGroupExampleInput1" class="inputBox form-control">
+                                            <input type="text" required="" name="first-name-input" class="inputBox form-control">
                                             <label for="formGroupExampleInput2">First Name</label>
                                         </div>
                                         <div class="inputBox form-group">
-                                            <input type="text" required="" id="formGroupExampleInput2" class="inputBox form-control">
+                                            <input type="text" required="" name="last-name-input" class="inputBox form-control">
                                             <label for="formGroupExampleInput2">Last Name</label>
                                         </div>
                                         <div class="inputBox form-group">
-                                            <input type="text" required="" id="formGroupExampleInput3" class="inputBox form-control email-box">
+                                            <input type="text" required="" name="email-input" class="inputBox form-control email-box">
                                             <label for="formGroupExampleInput3">Email Address</label>
                                         </div>
                                         <p class="text-center">
@@ -436,7 +436,7 @@
                                         </p>
                                         <div class="form-group">
                                             <label for="exampleFormControlSelect1">Subject</label>
-                                            <select class="form-control" id="exampleFormControlSelect1">
+                                            <select class="form-control" name="subject-input">
                                                 <option>Employment opportunity</option>
                                                 <option>Question</option>
                                                 <option>Website feedback</option>
@@ -447,9 +447,9 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleFormControlTextarea1">Message</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC."></textarea>
+                                            <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC."></textarea>
                                         </div>
-                                        <button type="button" id="submit-btn" class="btn btn-block btn-submit">Submit</button>
+                                        <button type="submit" id="submit-btn" class="btn btn-block btn-submit">Submit</button>
                                     </form>
                                 </div>
                             </div>
