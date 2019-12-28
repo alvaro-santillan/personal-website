@@ -111,6 +111,8 @@ body {
 #particles-js h3 {
   color: #052230;
   font-weight: 200;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Arrow */
