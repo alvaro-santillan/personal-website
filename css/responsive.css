@@ -518,7 +518,362 @@
             EXTRA SMALL MEDIA QUERIES
 =================================================*/
 @media (min-width: 480px) and (max-width: 575px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 45px;
+    font-size: 35px;
+  }
+
+  #contact-title h3 {
+    font-size: 35px;
+  }
+
+  #contact {
+    padding-top: 45px;
+  }
+
+  h4 {
+    font-size: 21.05px;
+  }
+
+  p,
+  li {
+    font-size: 15px;
+  }
+
+  ul {
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 100px;
+  }
+
+  #particles-js h3 {
+    font-size: 27px;
+  }
+
+  .arrow svg {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 65px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 35px;
+  }
+
+  .stats-item p {
+    font-size: 17px;
+  }
+
+  /* Education */
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  .text-muted {
+    font-size: 13px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .form-block {
+    max-width: 800px;
+  }
+
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 171.5%;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 12px !important;
+  }
 }
 
-@media (max-width: 479px) {
+@media (min-width: 390px) and (max-width: 479px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 45px;
+    font-size: 28.7px;
+  }
+
+  #contact-title h3 {
+    font-size: 28.7px;
+  }
+
+  #contact {
+    padding-top: 45px;
+  }
+
+  h4 {
+    font-size: 17.1px;
+  }
+
+  p,
+  li {
+    font-size: 11px;
+  }
+
+  ul {
+    padding: 3%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 75px;
+  }
+
+  #particles-js h3 {
+    font-size: 18px;
+  }
+
+  .arrow svg {
+    width: 65px;
+    height: 65px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 48px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 23px;
+  }
+
+  .stats-item p {
+    font-size: 12px;
+  }
+
+  /* Education */
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .text-muted {
+    font-size: 9px;
+  }
+
+  #contact p {
+    font-size: 11px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 11px !important;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 239%;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 10.1px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 389px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  #project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  #reco-affi-past-title h3 {
+    padding-top: 45px;
+    font-size: 22.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 22.1px;
+  }
+
+  #contact {
+    padding-top: 45px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  p,
+  li {
+    font-size: 11px;
+  }
+
+  ul {
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 75px;
+  }
+
+  #particles-js h3 {
+    font-size: 18px;
+  }
+
+  .arrow svg {
+    width: 65px;
+    height: 65px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 48px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 23px;
+  }
+
+  .stats-item p {
+    font-size: 12px;
+  }
+
+  /* Education */
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .text-muted {
+    font-size: 9px;
+  }
+
+  #contact p {
+    font-size: 11px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 12px !important;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 238%;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 7.5px !important;
+  }
 }
