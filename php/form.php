@@ -7,12 +7,13 @@ $subject = $_POST['subject-input'];
 $message = $_POST['message-input'];
 
 // Email message
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $email \r\n";
 $to = "afsm1995@live.com";
 $email_from = "contact@alvarosantillan.com";
 $email_subject = "New Personal Website Form Submission";
 $email_body = "Name: $firstName $lastName \n Email: $email \n Subject: $subject \n\n Message: $message";
+
+$headers = "From: $email_from \r\n";
+$headers .= "Reply-To: $email \r\n";
 
 // Send it
 mail($to, $email_subject, $email_body, $headers);

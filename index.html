@@ -92,7 +92,6 @@
         <div id="profile-body">
             <div id="profile-title">
                 <h3>Professional Profile</h3>
-                <br>
             </div>
             <p>An ambitious and education driven individual looking to bring “code with soul” and sparks of creativity to the mobile application development field. I`m also interested in Artificial Intelligence, Machine Learning, UI Design, & Full-Stack Web Development. I possess a strong work ethic and an ability to effectively interact with colleagues and clients.</p>
         </div>
@@ -105,7 +104,6 @@
         <div id="projects-body">
             <div id="project-title">
                 <h3>Projects</h3>
-                <br>
             </div>
 
             <!-- Top 3 current projects -->
@@ -301,7 +299,6 @@
         <div id="skill-body">
             <div id="skill-title">
                 <h3>Skill Set</h3>
-                <br>
             </div>
             <h4>Programming Languages & Libraries</h4>
             <p>Swift, Python, Java, C/C++, HTML, XML, CSS, Jupyter Notebook, Pandas, NumPy, Matplotlib.</p>
@@ -323,7 +320,6 @@
         <div id="education-body">
             <div id="education-title">
                 <h3>Education</h3>
-                <br>
             </div>
             <h4 class="school-name">University of Colorado Boulder: GPA: <span class="counter">3.4</span><span class="float-md-right"> Fall 2018 – Present</span></h4>
             <p class="boulder-degrees">
@@ -354,7 +350,6 @@
                     <div id="reco-affi-body">
                         <div id="reco-affi-past-title">
                             <h3>Recognitions & Affiliations</h3>
-                            <br>
                         </div>
                         <p>Dean’s List Fall 2018 (CU Boulder)
                         <br>TRIO First Generation (FRCC)
@@ -371,7 +366,6 @@
                     <div id="pass-time-body">
                         <div id="reco-affi-past-title">
                             <h3>Current Past Times</h3>
-                            <br>
                         </div>
                         <p>Passionate Snowboarder (Trees & Powder)
                         <br>Passionate Archer (Compound Non-Hunting)
@@ -400,7 +394,6 @@
     <section id="contact">
         <div id="contact-title">
             <h3>Contact Me</h3>
-            <br>
         </div>
         <div class='container-fluid'>
             <div class="row">
@@ -414,37 +407,53 @@
                             </div>
                             <div class="col-sm-8 col-md-9 col-lg-8 col-xl-7">
                                 <div class="card-body">
-                                    <form novalidate method="POST" action="./php/form.php">
+                                    <form class="needs-validation" novalidate method="POST" action="./php/form.php">
                                         <!-- required used for floating label effect. -->
                                         <div class="inputBox form-group first-name-box">
                                             <input type="text" required="" name="first-name-input" class="inputBox form-control">
                                             <label for="formGroupExampleInput2">First Name</label>
+                                            <div class="invalid-tooltip">
+                                                Please provide your first name.
+                                            </div>
                                         </div>
                                         <div class="inputBox form-group">
                                             <input type="text" required="" name="last-name-input" class="inputBox form-control">
                                             <label for="formGroupExampleInput2">Last Name</label>
+                                            <div class="invalid-tooltip">
+                                                Please provide your last name.
+                                            </div>
                                         </div>
                                         <div class="inputBox form-group">
-                                            <input type="text" required="" name="email-input" class="inputBox form-control email-box">
+                                            <input type="email" required="" name="email-input" class="inputBox form-control email-box">
                                             <label for="formGroupExampleInput3">Email Address</label>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid email.
+                                            </div>
                                         </div>
                                         <p class="text-center">
                                             <small class="text-muted">I respect your privacy. Your email will not be shared.</small>
                                         </p>
-                                        <div class="form-group">
+                                        <div class="form-group" style="position: relative;">
                                             <label for="exampleFormControlSelect1">Subject</label>
-                                            <select class="form-control" name="subject-input">
-                                                <option>Employment opportunity</option>
+                                            <select class="form-control" name="subject-input" id="subjectDrop" required>
+                                                <option value="" selected>Choose option...</option>
+                                                <option value="">Employment opportunity</option>
                                                 <option>Question</option>
                                                 <option>Website feedback</option>
                                                 <option>Skill-Set feedback</option>
                                                 <option>Personality feedback</option>
                                                 <option>Other</option>
                                             </select>
+                                            <div class="invalid-tooltip">
+                                                Please select a valid option.
+                                            </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group" style="position: relative;">
                                             <label for="exampleFormControlTextarea1">Message</label>
-                                            <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC."></textarea>
+                                            <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC." required></textarea>
+                                            <div class="invalid-tooltip">
+                                                Please provide a message.
+                                            </div>
                                         </div>
                                         <button type="submit" id="submit-btn" class="btn btn-block btn-submit">Submit</button>
                                     </form>

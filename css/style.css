@@ -38,6 +38,10 @@ body {
   border: none;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
+
 /* Buttons */
 .btn-submit,
 .btn-back-to-top {
@@ -284,6 +288,7 @@ body {
 #education-title h3,
 #reco-affi-past-title h3 {
   padding-top: 70px;
+  padding-bottom: 24px;
   font-weight: 600;
   font-size: 42px;
   margin-bottom: 0px;
@@ -392,6 +397,7 @@ body {
 }
 
 #contact-title h3 {
+  padding-bottom: 24px;
   font-weight: 600;
   font-size: 42px;
   margin-bottom: 0px;
