@@ -2,24 +2,31 @@ Before Release:
 implement contact form backend
 style links
 responsive
+-title scroll alignment
+-education
+-br spacing
+-remove back-to-top on small
+-image not showing small screen
 favicon
 clear udemy lecture
 
 After Release:
+fix mobile tap outside navbar closes hamburger
 fix/add first horizontal bar divider goes up too much
 fix button hold bug
 fix buggy drop down in current past time
 fix manual nav-bar callapse
+fix button stays blue
 handle missing meta info
 remove dependency from external resources
 add shadow on new contact section div
 loading javascript delay
 stop blinking when text done
-fix broken button transitions
 optimise reader ios
 Search engine optimization
 clean code
 printer version
+reader version
 square google fonts used
 
 Ideas:
