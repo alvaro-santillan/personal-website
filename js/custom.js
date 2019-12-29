@@ -12,6 +12,11 @@ $(function () {
 /*==================================================================
             NAV & BACK TO TOP BUTTON
 ==================================================================*/
+// Navbar link closes navbar.
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
 // Back to top and nav bar animation.
 $(function () {
     $(window).scroll(function () {

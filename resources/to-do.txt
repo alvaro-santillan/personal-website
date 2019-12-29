@@ -18,6 +18,7 @@ fix buggy drop down in current past time
 fix manual nav-bar callapse
 fix button stays blue
 handle missing meta info
+custom navbar callapse
 remove dependency from external resources
 add shadow on new contact section div
 loading javascript delay
