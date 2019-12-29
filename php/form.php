@@ -1,26 +1,24 @@
 <?php
-
+// Retrieve input from html.
 $firstName = $_POST['first-name-input'];
 $lastName = $_POST['last-name-input'];
 $email = $_POST['email-input'];
 $subject = $_POST['subject-input'];
 $message = $_POST['message-input'];
 
-$email_from = "contact@alvarosantillan.com";
-
-$email_subject = "New Form Submission";
-
-$email_body = "<b>$firstName $lastName</b> has sent you a message about <b>$subject</b>! \n\n $message \n\n You can email them back at: <b>$email</b>";
-
-$to = "afsm1995@live.com";
-
+// Email message
 $headers = "From: $email_from \r\n";
-
 $headers .= "Reply-To: $email \r\n";
+$to = "afsm1995@live.com";
+$email_from = "contact@alvarosantillan.com";
+$email_subject = "New Personal Website Form Submission";
+$email_body = "Name: $firstName $lastName \n Email: $email \n Subject: $subject \n\n Message: $message";
 
+// Send it
 mail($to, $email_subject, $email_body, $headers);
 
-function IsInjected($str){
+// Injection protection
+function IsInjected($str) {
     $injections = array('(\n+)',
            '(\r+)',
            '(\t+)',
@@ -40,8 +38,7 @@ function IsInjected($str){
     }
 }
 
-if(IsInjected($visitor_email))
-{
+if(IsInjected($visitor_email)) {
     echo "Bad email value!";
     exit;
 }
