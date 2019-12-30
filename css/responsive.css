@@ -647,6 +647,11 @@
 }
 
 @media (min-width: 390px) and (max-width: 479px) {
+  /* Navigation */
+  #back-to-top {
+    display: none !important;
+  }
+
   /* Full site padding and font size */
   #profile-title h3,
   #project-title h3,
@@ -770,7 +775,13 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 389px) {
+/* @media (min-width: 300px) and (max-width: 389px) { */
+@media (max-width: 389px) {
+  /* Navigation */
+  #back-to-top {
+    display: none !important;
+  }
+
   /* Full site padding and font size */
   #profile-title h3,
   #project-title h3,

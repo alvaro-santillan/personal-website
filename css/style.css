@@ -46,8 +46,8 @@ body {
 .btn-submit,
 .btn-back-to-top {
   color: #052230 !important;
-  -webkit-transition: all 0.4s ease-out 0.1s;
-  transition: all 0.4s ease-out 0.1s;
+  -webkit-transition: background-color 0.4s ease-out 0.1s, color 0.4s ease-out 0.1s;
+  transition: background-color 0.4s ease-out 0.1s, color 0.4s ease-out 0.1s;
 }
 
 .btn-back-to-top {

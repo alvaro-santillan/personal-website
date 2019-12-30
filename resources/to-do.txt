@@ -6,10 +6,9 @@ responsive
     -remove back-to-top on small
     -image not showing small screen
 favicon
-clear udemy lecture
-    -responive layout testing tools
-    -validate code
-    -multi browser testing
+-responive layout testing tools
+-validate all code
+-multi browser testing
 
 After Release:
 auto reply email
@@ -41,6 +40,7 @@ Format projects in style of clean snip found on the internet
 dark mode switch
 make floating professional profile
 Practical js on education felid
+navbar shadow fade in
 
 Other Ideas:
 Message Recived! 
