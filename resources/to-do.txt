@@ -15,10 +15,8 @@ auto reply email
 button text change and no movement after form submit
 fix mobile tap outside navbar closes hamburger
 fix/add first horizontal bar divider goes up too much
-fix button hold bug
 fix buggy drop down in current past time
-fix manual nav-bar callapse
-fix button stays blue
+fix button hold stays blue
 handle missing meta info
 custom navbar callapse
 remove dependency from external resources
