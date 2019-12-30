@@ -276,7 +276,7 @@
             </div>
 
             <!-- Project group -->
-            <div class="project-category" class="last-project">
+            <div class="project-category last-project">
                 <div class="project-category-title">
                     <h4><span class="counter">1</span> Data Model Project</h4>
                 </div>
@@ -336,7 +336,7 @@
             <h4 class="school-name">Metropolitan State University of Denver: GPA: <span class="counter">3.1</span><span class="float-md-right"> Fall 2014 – Spring 2016</span></h4>
                 <p><a href="https://www.msudenver.edu/math/computer-science-major-bs.shtml" target="_blank">Candidate for Bachelor's Degree in Computer Science from the Department of Mathematical and Computer Sciences. (BS)</a></p>
             <h4 class="school-name">Westminster High School: GPA: <span class="counter">3.3</span><span class="float-md-right"> Fall 2009 – Spring 2013</span></h4>
-                <p><a href="https://www.westminsterpublicschools.org/domain/365" target="_blank"></a>Acquired Honors High School Diploma (HS)</a></p>
+                <p><a href="https://www.westminsterpublicschools.org/domain/365" target="_blank">Acquired Honors High School Diploma (HS)</a></p>
         </div>
     </section>
 
@@ -350,7 +350,7 @@
                 
                 <div class="col-md-6 d-flex justify-content-start reco-affi-outer-body">
                     <div id="reco-affi-body">
-                        <div id="reco-affi-past-title">
+                        <div class="reco-affi-past-title">
                             <h3>Recognitions & Affiliations</h3>
                         </div>
                         <p>Dean’s List Fall 2018 (CU Boulder)
@@ -366,7 +366,7 @@
 
                 <div class="col-md-6 d-flex justify-content-start pass-time-outer-body">
                     <div id="pass-time-body">
-                        <div id="reco-affi-past-title">
+                        <div class="reco-affi-past-title">
                             <h3>Current Past Times</h3>
                         </div>
                         <p>Passionate Snowboarder (Trees & Powder)
@@ -413,30 +413,30 @@
                                         <!-- required used for floating label effect. -->
                                         <div class="inputBox form-group first-name-box">
                                             <input type="text" required="" name="first-name-input" class="inputBox form-control">
-                                            <label for="formGroupExampleInput2">First Name</label>
+                                            <label>First Name</label>
                                             <div class="invalid-tooltip">
                                                 Please provide your first name.
                                             </div>
                                         </div>
                                         <div class="inputBox form-group">
                                             <input type="text" required="" name="last-name-input" class="inputBox form-control">
-                                            <label for="formGroupExampleInput2">Last Name</label>
+                                            <label>Last Name</label>
                                             <div class="invalid-tooltip">
                                                 Please provide your last name.
                                             </div>
                                         </div>
                                         <div class="inputBox form-group">
                                             <input type="email" required="" name="email-input" class="inputBox form-control email-box">
-                                            <label for="formGroupExampleInput3">Email Address</label>
+                                            <label>Email Address</label>
                                             <div class="invalid-tooltip">
                                                 Please provide a valid email.
                                             </div>
                                         </div>
-                                        <p class="text-center">
+                                        <p class="contact-text text-center">
                                             <small class="text-muted">I respect your privacy. Your email will not be shared.</small>
                                         </p>
                                         <div class="selector-and-message form-group">
-                                            <label for="exampleFormControlSelect1">Subject</label>
+                                            <label>Subject</label>
                                             <select class="form-control" name="subject-input" id="subjectDrop" required>
                                                 <option value="" selected>Select an option...</option>
                                                 <option value="">Employment opportunity</option>
@@ -451,7 +451,7 @@
                                             </div>
                                         </div>
                                         <div class="selector-and-message form-group">
-                                            <label for="exampleFormControlTextarea1">Message</label>
+                                            <label>Message</label>
                                             <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC." required></textarea>
                                             <div class="invalid-tooltip">
                                                 Please provide a message.
@@ -468,21 +468,21 @@
                 <div class="col-md-6 d-flex justify-content-center contact-greeting">
                     <div id="contact-body">
                         <h4 class="text-center card-title">Thank you for your interest!</h4>
-                        <p class="card-text">Computer Science has proven to be a diverse and door opening career path. I
+                        <p class="contact-text card-text">Computer Science has proven to be a diverse and door opening career path. I
                             hope that I impressed you enough to reach out if you're interested in having me join your
                             team or company. Feel free to browse my GitHub repositories, view and/or add me on LinkedIn,
                             or view my latest resume by clicking the respective icons below. You can also send me a
                             message using the contact form on this website. If you do decide to send a message using
                             this website, keep an eye out on the email you used.</p>
                         <hr>
-                        <p class="text-center card-text">Professional contact forms are high priority and are replied to
+                        <p class="contact-text text-center card-text">Professional contact forms are high priority and are replied to
                             within 24 hours. A confirmation email is sent out shortly after a message is sent.</p>
                         <!-- Social icons -->
-                        <div class="text-center social-icons container">
+                        <div class="text-center container">
                             <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
-                            <a href="https://github.com/AFSM1995" target="#"><li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></li></a>
-                            <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><li class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
-                            <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><li class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></li></a>
+                            <a href="https://github.com/AFSM1995" target="#"><p class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></p></a>
+                            <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><p class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></p></a>
+                            <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><p class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></p></a>
                         </div>
                     </div>
                 </div>
@@ -497,12 +497,12 @@
     <footer class="footer-outer-color-block">
         <div class="footer-inner-color-block shadow"></div>
         
-        <section id="contact">
+        <div id="footer">
             <div class="footer-container container">
                 <div class="row text-center">
                     <!-- Copyright message -->
                     <div class="col-md-12">
-                        <p class="copyright-text">Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or
+                        <p class="contact-text copyright-text">Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or
                             2.<br>Copyright © 2019-2020 Álvaro F Santillan. All rights reserved.</p>
                     </div>
                 </div>
@@ -514,7 +514,7 @@
                     <path fill-rule="evenodd" d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd" />
                 </svg>
             </a>
-        </section>
+        </div>
         
     </footer>
 
@@ -525,7 +525,7 @@
     <script src="js/particles/particles.js"></script>
     <script src="js/particles/app.js"></script>
     <script src="js/typed/typed.js"></script>
-    <script src="js/typed/typed.js" type="text/javascript"></script>
+    <script src="js/typed/typed.js"></script>
     <script src="https://kit.fontawesome.com/72f58b42eb.js" crossorigin="anonymous"></script>
     <script src="js/counter/jquery.waypoints.min.js"></script>
     <script src="js/counter/jquery.counterup.min.js"></script>

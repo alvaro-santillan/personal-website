@@ -298,7 +298,8 @@ a:active {
 .project-icon-stats,
 #skill-body,
 #education-body,
-#contact {
+#contact,
+#footer {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -308,7 +309,7 @@ a:active {
 .project-category-title h3,
 #skill-title h3,
 #education-title h3,
-#reco-affi-past-title h3 {
+.reco-affi-past-title h3 {
   padding-top: 70px;
   padding-bottom: 24px;
   font-weight: 600;
@@ -410,7 +411,8 @@ a:active {
 /*=================================================
     CONTACT / FOOTER
 =================================================*/
-#contact {
+#contact,
+#footer {
   padding-top: 70px;
   width: 100%;
   font-size: 1.1em;
@@ -430,7 +432,7 @@ a:active {
   color: #052230;
 }
 
-#contact p {
+.contact-text {
   font-size: 0.8em;
   margin-bottom: 15.75px;
 }
@@ -497,6 +499,10 @@ a:active {
 }
 
 /* Contact icons */
+.list-inline-item {
+  margin-bottom: 0px;
+}
+
 #contact .fab {
   margin: 5px 15px;
   bottom: 0;

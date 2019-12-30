@@ -55,7 +55,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 55px;
     font-size: 38.15px;
   }
@@ -64,7 +64,8 @@
     font-size: 38.15px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 55px;
   }
 
@@ -104,7 +105,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 30.1px;
   }
@@ -113,7 +114,8 @@
     font-size: 30.1px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -172,7 +174,7 @@
   }
 
   /* Contact section */
-  #contact p {
+  .contact-text {
     font-size: 11.5px;
   }
 
@@ -202,7 +204,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 27.1px;
   }
@@ -211,7 +213,8 @@
     font-size: 27.1px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -270,7 +273,7 @@
   }
 
   /* Contact section */
-  #contact p {
+  .contact-text {
     font-size: 11px;
   }
 
@@ -303,7 +306,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 35px;
   }
@@ -312,7 +315,8 @@
     font-size: 35px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -416,7 +420,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 35px;
   }
@@ -425,7 +429,8 @@
     font-size: 35px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -532,7 +537,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 35px;
   }
@@ -541,7 +546,8 @@
     font-size: 35px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -647,7 +653,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 28.7px;
   }
@@ -656,7 +662,8 @@
     font-size: 28.7px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -729,7 +736,7 @@
     font-size: 9px;
   }
 
-  #contact p {
+  .contact-text {
     font-size: 11px;
   }
 
@@ -770,7 +777,7 @@
   .project-category-title h3,
   #skill-title h3,
   #education-title h3,
-  #reco-affi-past-title h3 {
+  .reco-affi-past-title h3 {
     padding-top: 45px;
     font-size: 22.1px;
   }
@@ -779,7 +786,8 @@
     font-size: 22.1px;
   }
 
-  #contact {
+  #contact,
+  #footer {
     padding-top: 45px;
   }
 
@@ -852,7 +860,7 @@
     font-size: 9px;
   }
 
-  #contact p {
+  .contact-text {
     font-size: 11px;
   }
 
