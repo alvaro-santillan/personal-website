@@ -9,7 +9,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Raleway", cursive;
+  font-family: "Raleway", "Lato", "Helvetica", "Arial", "Verdana", "Candara";
   scroll-behavior: smooth;
 }
 
@@ -45,7 +45,7 @@ body {
 /* Buttons */
 .btn-submit,
 .btn-back-to-top {
-  color: #052230;
+  color: #052230 !important;
   -webkit-transition: all 0.4s ease-out 0.1s;
   transition: all 0.4s ease-out 0.1s;
 }
@@ -60,7 +60,7 @@ body {
 
 .btn-back-to-top:hover {
   background-color: #052230;
-  color: #fbfefb;
+  color: #fbfefb !important;
 }
 
 .btn-submit {
@@ -71,6 +71,26 @@ body {
   background-color: #b6d39f;
   color: #052230;
   border-color: #052230;
+}
+
+/* Unvisited link */
+a:link {
+  color: #127baf;
+}
+
+/* Visited link */
+a:visited {
+  color: #127baf;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #127baf;
+}
+
+/* Selected link */
+a:active {
+  color: #DDD1C7;
 }
 
 /*================================================
@@ -446,6 +466,10 @@ body {
   color: #052230;
   background-color: #fcfbfa;
   border-color: #b1b1b1;
+}
+
+.selector-and-message {
+  position: relative;
 }
 
 #submit-btn {

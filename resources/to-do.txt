@@ -1,16 +1,21 @@
 Before Release:
-implement contact form backend
-style links
 responsive
--title scroll alignment
--education
--br spacing
--remove back-to-top on small
--image not showing small screen
+    -title scroll alignment
+    -education
+    -br spacing
+    -remove back-to-top on small
+    -image not showing small screen
 favicon
 clear udemy lecture
+    -responive layout testing tools
+    -validate code
+    -clear consile
+    -multi browser testing
+    -
 
 After Release:
+auto reply email
+button text change and no movement after form submit
 fix mobile tap outside navbar closes hamburger
 fix/add first horizontal bar divider goes up too much
 fix button hold bug
