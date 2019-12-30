@@ -789,7 +789,7 @@
   #skill-title h3,
   #education-title h3,
   .reco-affi-past-title h3 {
-    padding-top: 45px;
+    padding-top: 60px;
     font-size: 22.1px;
   }
 
@@ -799,9 +799,16 @@
 
   #contact,
   #footer {
-    padding-top: 45px;
+    padding-top: 60px;
   }
 
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 3% !important;
+  }
+
+  /* Sub-section titles */
   h4 {
     font-size: 15px;
   }
@@ -844,8 +851,6 @@
     font-size: 12px;
   }
 
-  /* Education */
-
   /* Recognitions, Affiliations & Current Past Times */
   .reco-affi-outer-body,
   .pass-time-outer-body {
@@ -857,12 +862,13 @@
     padding-left: 0%;
   }
 
+  /* Contact section */
+
   /* Remove contact section horizontal bar */
   .contact-form-block {
     border-right: 1px solid transparent;
   }
-
-  /* Contact section */
+  
   #contact-body {
     padding-left: 0px;
   }
@@ -880,7 +886,7 @@
   option,
   .btn-submit,
   .form-control {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 
   /* Contact greeting */
@@ -896,7 +902,7 @@
 
   /* Footer block effect */
   .footer-inner-color-block {
-    top: 35px;
+    top: 25px;
   }
   
   /* Footer */

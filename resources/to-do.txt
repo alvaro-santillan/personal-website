@@ -15,7 +15,6 @@ auto reply email
 button text change and no movement after form submit
 fix mobile tap outside navbar closes hamburger
 fix/add first horizontal bar divider goes up too much
-fix buggy drop down in current past time
 fix button hold stays blue
 handle missing meta info
 custom navbar callapse
@@ -23,15 +22,14 @@ remove dependency from external resources
 add shadow on new contact section div
 loading javascript delay
 stop blinking when text done
-optimise reader ios
 Search engine optimization
 clean code
 printer version
 reader version
-square google fonts used
 
 Ideas:
 custom color education school colors
+custom font awaome dots
 type out resources used using typed.js
 change heart icon on hover
 Format projects in style of clean snip found on the internet
