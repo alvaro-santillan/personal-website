@@ -9,9 +9,7 @@ favicon
 clear udemy lecture
     -responive layout testing tools
     -validate code
-    -clear consile
     -multi browser testing
-    -
 
 After Release:
 auto reply email

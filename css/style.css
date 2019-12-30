@@ -291,8 +291,10 @@ a:active {
     SKILL & EDUCATION ALL
 =================================================*/
 #profile-body,
-#project,
-#project-category,
+#spotlight-project-1,
+#spotlight-project-2,
+#spotlight-project-3,
+.project-category,
 .project-icon-stats,
 #skill-body,
 #education-body,
@@ -303,7 +305,7 @@ a:active {
 
 #profile-title h3,
 #project-title h3,
-#project-category-title h3,
+.project-category-title h3,
 #skill-title h3,
 #education-title h3,
 #reco-affi-past-title h3 {
@@ -318,8 +320,10 @@ a:active {
 /*=================================================
     PROJECT
 =================================================*/
-#project,
-#project-category {
+#spotlight-project-1,
+#spotlight-project-2,
+#spotlight-project-3,
+.project-category {
   padding-bottom: 25px;
 }
 
@@ -327,8 +331,10 @@ a:active {
   padding-left: 5%;
 }
 
-#project p,
-#project-category p,
+#spotlight-project-1 p,
+#spotlight-project-2 p,
+#spotlight-project-3 p,
+.project-category p,
 .resources-used {
   margin-bottom: 5px;
 }
