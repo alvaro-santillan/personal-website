@@ -3,7 +3,6 @@ responsive
     -title scroll alignment
     -education
     -br spacing
-    -remove back-to-top on small
     -image not showing small screen
 favicon
 -responive layout testing tools

@@ -451,7 +451,8 @@ a:active {
 .contact-inner-color-block {
   width: 150%; 
   height: 150%; 
-  background-color: rgb(255, 128, 0); 
+  background-color: #F5F2EF;
+  /* background-color: rgb(255, 128, 0);  */
   position: absolute; 
   left: -35px; 
   -webkit-transform: rotate(-3deg);
@@ -569,12 +570,14 @@ a:active {
   position: absolute; 
   width:100%; 
   background-color: #ECE5E0;
+  /* background-color:purple; */
 }
 
 .footer-inner-color-block {
   width: 150%; 
   height: 200%; 
   background-color: #DDD1C7; 
+  /* background-color:green;  */
   position: absolute; 
   left: -35px; 
   top: 70px; 
