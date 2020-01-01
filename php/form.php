@@ -7,7 +7,7 @@ $subject = $_POST['subject-input'];
 $message = $_POST['message-input'];
 
 // Email message
-$to = "afsm1995@live.com";
+$to = "alvaro@alvarosantillan.com";
 $email_from = "contact@alvarosantillan.com";
 $email_subject = "New Personal Website Form Submission";
 $email_body = "Name: $firstName $lastName \n Email: $email \n Subject: $subject \n\n Message: $message";

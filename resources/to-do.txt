@@ -1,21 +1,12 @@
-Before Release:
-responsive
-    -title scroll alignment
-    -education
-    -br spacing
-    -image not showing small screen
-favicon
--responive layout testing tools
--validate all code
--multi browser testing
-
 After Release:
 auto reply email
 button text change and no movement after form submit
 fix mobile tap outside navbar closes hamburger
 fix/add first horizontal bar divider goes up too much
 fix button hold stays blue
+fix image not showing small screen
 handle missing meta info
+fix dune buggy text
 custom navbar callapse
 remove dependency from external resources
 add shadow on new contact section div

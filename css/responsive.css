@@ -7,14 +7,313 @@
 */
 
 /*=================================================
-            BOOTSTRAP MEDIA QUERIES
-=================================================*/
-
-/*=================================================
             EXTRA LARGE MEDIA QUERIES
 =================================================*/
-/* Clear up to 1400px */
-@media (min-width: 1200px) and (max-width: 1400px) {
+/* Responsive up to 4000px */
+@media (min-width: 3500px) {
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+
+  .nav-link {
+    font-size: 24px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  #project-title h3 {
+    padding-left: 30%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 30% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 30% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 170px;
+  }
+}
+
+@media (min-width: 3000px) and (max-width: 3499px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #project-title h3 {
+    padding-left: 25%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 25% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 25% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 150px;
+  }
+}
+
+@media (min-width: 2800px) and (max-width: 2999px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #project-title h3 {
+    padding-left: 20%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 20% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 20% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 130px;
+  }
+}
+
+@media (min-width: 2399px) and (max-width: 2799px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #project-title h3 {
+    padding-left: 15%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 15% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 15% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 120px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2399px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #project-title h3 {
+    padding-left: 10%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 10% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 10% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 100px;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 1999px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  #project-title h3 {
+    padding-left: 7.5%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 7.5% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 7.5% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 100px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .navbar-brand {
+    font-size: 19.5px !important;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 90px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
   /* All clear */
 }
 

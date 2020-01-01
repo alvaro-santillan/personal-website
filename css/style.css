@@ -261,7 +261,7 @@ a:active {
   }
 }
 
-/* @keyframes bounce {
+@keyframes bounce {
   0%,
   20%,
   50%,
@@ -284,7 +284,7 @@ a:active {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
-} */
+}
 
 /*=================================================
     H3 & PADDING FOR PROFILE, PROJECT, SKILL, EDUCATION, RECO-AFFI, CONTACT
@@ -355,7 +355,8 @@ a:active {
 }
 
 .icons-project {
-  background-color: #ece5e0;
+  /* background-color: #ece5e0; */
+  background-color: #F5F2EF;
   border-radius: 15px;
 }
 

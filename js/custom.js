@@ -43,8 +43,8 @@ $(window).scroll(function () {
 // Type effect
 $(function () {
     var typed = new Typed('.typed', {
-        // strings: ['| My name is Álvaro F Santillan.', '| I&apos;m a CU Boulder junior majoring in CS (BS).', '| I&apos;m a CU Boulder buff minoring in TAM (BS).', '| I&apos;m an aspiring mobile application developer.', '| I&apos;m an aspiring full-stack developer.', '| I have experience making iOS and Android apps.', '| I have experience making well-designed websites.', '| I have experience with Python and Python libraries.', '| I have experience with Swift, Xcode, Java, and Android Studios.', '| I work with the professionals around me.', '| I build on the giants before me.', '| I like to design and create software.', '| Let&apos;s create something great together.'],
-        strings: ['| My name is Álvaro F Santillan.', '| I have experience with Swift, Xcode, Java, and Android Studios.'],
+        strings: ['| My name is Álvaro F Santillan.', '| I&apos;m a CU Boulder junior majoring in CS (BS).', '| I&apos;m a CU Boulder buff minoring in TAM (BS).', '| I&apos;m an aspiring mobile application developer.', '| I&apos;m an aspiring full-stack developer.', '| I have experience making iOS and Android apps.', '| I have experience making well-designed websites.', '| I have experience with Python and Python libraries.', '| I have experience with Swift, Xcode, Java, and Android Studios.', '| I work with the professionals around me.', '| I build on the giants before me.', '| I like to design and create software.', '| Let&apos;s create something great together.'],
+        // strings: ['| My name is Álvaro F Santillan.', '| I have experience with Swift, Xcode, Java, and Android Studios.'],
         startDelay: 3000,
         typeSpeed: 45,
         backSpeed: 20,
