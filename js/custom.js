@@ -43,7 +43,7 @@ $(window).scroll(function () {
 // Type effect
 $(function () {
     var typed = new Typed('.typed', {
-        strings: ['| My name is Álvaro Santillan.', '| I&apos;m a CU Boulder senior majoring in CS (BS).', '| I&apos;m a CU Boulder buff minoring in TAM (BS).', '| I&apos;m a mobile application developer.', '| I&apos;m a front-end developer.', '| I have experience making iOS and Android apps.', '| I have experience making well-designed websites.', '| I have experience with Python and Python libraries.', '| I have experience with Swift, Xcode, Java, and Android Studios.', '| I like to design and create software.', '| I like to build on the giants before me.', '| Let&apos;s create something great together.'],
+        strings: ['| My name is Álvaro Santillan.', '| I&apos;m a CU Boulder senior majoring in CS (BS).', '| I&apos;m a CU Boulder buff minoring in TAM (BS).', '| I&apos;m a mobile application developer.', '| I&apos;m a front-end developer.', '| I have experience with Python Scripting', '| I like to design and create software.', '| I like to build on the giants before me.', '| Let&apos;s create something great together.'],
         // strings: ['| My name is Álvaro Santillan.', '| I have experience with Swift, Xcode, Java, and Android Studios.'],
         startDelay: 3000,
         typeSpeed: 45,
