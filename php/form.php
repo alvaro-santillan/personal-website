@@ -16,7 +16,7 @@ $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $email \r\n";
 
 // Send it
-mail($to, $email_subject, $email_body, $headers);
+// mail($to, $email_subject, $email_body, $headers);
 
 // Injection protection
 function IsInjected($str) {
